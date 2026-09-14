@@ -14,7 +14,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   Color themeColor = Colors.black;
 
-  void changeTheme(Color color) {
+  void changeTheme(color) {
     setState(() {
       themeColor = color;
     });

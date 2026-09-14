@@ -47,7 +47,7 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Center(
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: .center,
             children: [
               ElevatedButton(
                 onPressed: changeRed,
